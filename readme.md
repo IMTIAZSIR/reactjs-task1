@@ -143,3 +143,14 @@ function TodoApp() {
 
 export default TodoApp;
 ```
+
+4. Explanation
+--------------------------------------------------------------------------------
+
+- useState Hook: Manages component state for todos array, input value, and filter
+- addTodo Function: Creates new todo objects with unique IDs and adds them to state
+- toggleTodo Function: Updates the completed status of specific todos using map
+- deleteTodo Function: Removes todos from array using filter
+- filteredTodos: Computes filtered list based on current filter state
+- Event Handling: Handles form submission, keyboard events, and button clicks
+- Conditional Rendering: Shows different content based on todo count and filter
